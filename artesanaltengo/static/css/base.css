@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+
+
+body{
+	font-family:cursive;, Helvetica, sans-serif;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border-left-width: 0px;
+	border-left-style: solid;
+	border-style-color: #ccc;
+}
+li{
+	display: inline;
+}
+a{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	padding: 5px;
+	float: left;
+	border-bottom-width: 3px;
+	border-bottom-color: #ccc;
+	border-bottom-style: solid;
+	border-top-color: #ccc;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-right-color: #ccc;
+	border-right-width: 3px;
+}
+a:hover{
+	color: #fff;
+	background-color: #233;
+}
+footer{
+	clear: both;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 300px;
+}
+
+.ima{
+	height: 500px;
+	width: 1000px;
+}
+#busqueda{
+	font-size: 20px;
+	float: right;
+	filter: drop-shadow(5px);
+}
+.foto{
+	height: 200px;
+	width: 120px;
+	border: 1px solid #000;
+	filter:drop-shadow(12px 12px 3px #555);
+}
+
+#resultado li{
+	display: inline;{}
+	float: left;
+	padding: 15px;
+	filter: drop-shadow(12px 12px 5px, #445 );
+}
+
+.barney{
+	height: 120px;
+	width: 100px;
+}
+
+.chela{
+	height: 250px;
+	width: 250px;
+}
+
+.grog{
+	height: 200px;
+	width: 200px;
+
+}
+
+
+.guybrush{
+	height: 300px;
+	width: 200px;
+}
+
+.quimera{
+	height: 300px;
+	width: 200px;
+}
+
+.revenge{
+	height: 300px;
+	width: 200px;
+}
+
+.rubiola{
+	height: 300px;
+	width: 200px;
+}
+
+.voodoo{
+	height: 300px;
+	width: 200;
+}
+
+<style>
+.grog {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  
+
+}
+
+.grog:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+</style>
+
+
+<style>
+.guybrush {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.guybrush:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+</style>
+
+
+
+<style>
+.quimera {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.quimera:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+</style>
+
+
+<style>
+.revenge {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.revenge:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+</style>
+
+
+<style>
+.rubiola {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.rubiola:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+</style>
+
+
+<style>
+.voodoo {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+.voodoo:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+</style>
+
+
+.social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:40px;
+  height:40px;
+  margin-right: 20px;
+}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block titulo %}Nuestras{% endblock %}
+
+{% block cabecera %}Nuestras Cervezas(Imágenes meramente ilustrativas!){% endblock %}
+
+{%block contenido %} 
+<br><br>
+<p>Le recomendamos escuchar este éxito mientras disfruta de nuestras cervezas!
+</p><object style="height: 250px; width: 400px"><param name="movie" value="https://www.youtube.com/embed/xutURxcE33Q"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/v1gTI4BOPUw?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+<br><br>
+<p>NUESTRAS CERVEZAS SON ADQUIRIDAS A LOS MEJORES FABRICANTES ARTESANALES Y SON ESTAS:</p>
+<ul>
+<button shop-dialog-proceed ng-click="proceedWith('PURCHASE_NOW')" class="btn btn-success">Comprá ya, no seas nabo!</button>
+<li><img class="grog" src="{% static 'img/grog.jpg' %}"><p>GROG!</p></li>
+<button shop-dialog-proceed ng-click="proceedWith('PURCHASE_NOW')" class="btn btn-success">Comprá ya, no seas nabo!</button>
+<li><img class="guybrush" src="{% static 'img/guybrush.png' %}"><p>GUYBRUSH!</p></li>
+<button shop-dialog-proceed ng-click="proceedWith('PURCHASE_NOW')" class="btn btn-success">Comprá ya, no seas nabo!</button>
+<li><img class="quimera" src="{% static 'img/quimera.jpg' %}"><p>QUIMERA!</p></li>
+<button shop-dialog-proceed ng-click="proceedWith('PURCHASE_NOW')" class="btn btn-success">Comprá ya, no seas nabo!</button>
+<li><img class="revenge" src="{% static 'img/revenge.jpg' %}"><p>REVENGE!</p></li>
+<button shop-dialog-proceed ng-click="proceedWith('PURCHASE_NOW')" class="btn btn-success">Comprá ya, no seas nabo!</button>
+<li><img class="rubiola" src="{% static 'img/rubiola.jpg' %}"><p>RUBIOLA!</p></li>
+<button shop-dialog-proceed ng-click="proceedWith('PURCHASE_NOW')" class="btn btn-success">Comprá ya, no seas nabo!</button>
+<li><img class="voodoo" src="{% static 'img/voodoo.jpg' %}"><p>VOODOO!</p></li>
+</ul>
+
+{% endblock %}
+
+
+

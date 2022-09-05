@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block titulo %}Sobre{% endblock %}
+
+{% block cabecera %}Nosotros{% endblock %}
+
+{%block contenido %} 
+<br><br>
+<p>Somos una empresa familiar encargada de la distribución de cerveza artesanal en todo el Uruguay. Nuestro abuelo Héctor Mammelli arribó a estas nobles tierras en 1915, con solo una chapita de cerveza en el bolsillo. Lo que no sabía, era que en cuestión de un mes iba a conseguir amasar una fortuna. Desconocemos como lo hizo, hay varias historias pero lo que importa es el resultado...¡Hay cerveza!
+</p>
+
+<img class="ima" src="{% static 'img/familia.jpg' %}">
+{% endblock %}

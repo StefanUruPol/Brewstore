@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+{% block titulo %} Resultados {% endblock %}
+
+{% block cabecera %} Búsqueda en el cervesitio  {% endblock %}
+
+{% block contenido %} 
+<br><br>
+
+<p>Su búsqueda cervecera vomitó lo siguiente:</p>
+
+{% if cervezas %}
+	<p>Cerveza{{cervezas|pluralize}}
+	encontrada{{cervezas|pluralize}}: {{cervezas|length}}</p>
+	<ul id="resultado">
+		{% for a in cervezas %}
+		<li>
+			<p>Nombre: {{a.nombre}}</p>
+			<p>Variedad: {{a.variedad}}</p>
+			<p>Marca: {{a.marca}}</p>
+			<p>Cantidad disponible: {{a.cantidad}}</p>
+			<p>Precio unidad: {{a.precio}}</p>
+			<img class="foto" src="{{a.foto.url}}">
+		</li>
+		{% endfor %}
+	</ul>
+{% else %}
+	<br><br>
+	<p>Ningúna cervezinha encontrada, seguí buscando!</p>
+{% endif %}
+
+{% endblock %}
+
